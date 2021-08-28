@@ -1,11 +1,15 @@
 
-function getSomething() {
+async function getSomething() {
+    const somethingToView = await makeRequest("http://localhost:3000/api", "GET")
+    const displaySomething = document.getElementsByTagName("h4") [0]
+    displaySomething.innerText = somethingToView
+    
+    console.log(somethingToView)
     console.log("GET")
-
 }
 
 
-function postSomething() {
+async function postSomething() {
     console.log("POST")
 }
 
