@@ -1,0 +1,21 @@
+
+
+.bodyDivOne {
+    height: 50vh;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    
+    padding-top: 5%;
+   
+
+}
+
+.bodyDivTwo {
+    height: 50vh;
+    width: 100%;
+    background-color: lavender;
+    text-align: center;
+   
+    padding-top: 5%;
+}

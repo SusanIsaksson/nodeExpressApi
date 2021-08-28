@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./public.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="bodyDivOne">
+        <h1>Här använder jag mitt egna API</h1>
+        <div>
+            <div>
+                <input type="text" name="postItem" id="newPost" placeholder="Lägg till...">
+                <button onclick="postSomething()">Spara</button>
+            </div>
+            <div>
+                <button onclick="getSomething()">Hämta</button>
+                <h4></h4>
+            </div>
+        </div>
+    </div>
+    <div class="bodyDivTwo">
+        <h1>Här hämtar jag från ett externt API</h1>
+        <div>
+            <button onclick="getFromExternAPI()">Hämta API</button>
+            <h4></h4>
+        </div>
+
+    </div>
+   
+</body>
+</html>
