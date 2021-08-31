@@ -11,14 +11,17 @@
 <body>
     <div class="bodyDivOne">
         <h1>Här använder jag mitt egna API</h1>
-        <div>
+        <div>                      
             <div>
-                <input type="text" name="postItem" id="newPost" placeholder="Lägg till...">
-                <button onclick="postSomething()">Spara</button>
-            </div>
-            <div>
-                <button onclick="getSomething()">Hämta</button>
-                <h4></h4>
+                <h4>Vårt sortiment består av följande färger:</h4>             
+                <button onclick="getSomething()">Hämta färglista</button><br><br>
+                <div id="viewColor"></div>
+                <div>
+                    <h4>Saknar du din favoritfärg, kan du lägga in den här:</h4>
+                    <input type="text" id="inputNewColor" name="title" placeholder="Skriv in en ny färg">
+                    <button onclick="postNewColor()">Spara</button>
+                </div>
+                
             </div>
         </div>
     </div>
