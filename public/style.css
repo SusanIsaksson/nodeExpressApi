@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.bodyContainer {
+    display: flex;
+    flex-wrap: wrap;
 
+}
 
 .bodyDivOne {
-    height: 50vh;
+    height: auto;
     width: 100%;
     background-color: aquamarine;
     text-align: center;
@@ -12,7 +20,7 @@
 }
 
 .bodyDivTwo {
-    height: 50vh;
+    height: auto;
     width: 100%;
     background-color: lavender;
     text-align: center;
