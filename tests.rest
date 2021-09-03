@@ -6,6 +6,9 @@ GET http://localhost:3000/api
 
 POST http://localhost:3000/api/
 Content-Type: application/json
+
 {
-    "title": "pink"
+    "title": "pigelin-green"
 }
+
+###
