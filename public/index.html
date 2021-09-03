@@ -8,10 +8,16 @@
     <script defer src="./public.js"></script>
     <title>Document</title>
 </head>
-<body class="bodyContainer">
-    <div class="bodyDivOne">
-        <h1>Här använder jag mitt egna API</h1>
-        <div>                      
+<body>
+    <div class="header">
+        <h1>Inlämningsuppgift 1 - API</h1>
+        <h5>Systemstöd och integration med 3-partssystem</h5>
+    </div>
+    <div class="bodyContainer">
+    
+        <div class="bodyDivOne">
+            <h1>Här använder jag mitt egna API</h1>
+                                 
             <div>
                 <h4>Vårt sortiment består av följande färger:</h4>             
                 <button onclick="getSomething()">Hämta färglista</button><br><br>
@@ -20,19 +26,24 @@
                     <h4>Saknar du din favoritfärg, kan du lägga in den här:</h4>
                     <input type="text" id="inputNewColor" name="title" placeholder="Skriv in en ny färg">
                     <button onclick="postNewColor()">Spara</button>
-                </div>
-                
+                </div>   
             </div>
-        </div>
-    </div>
-    <div class="bodyDivTwo">
-        <h1>Här hämtar jag från ett externt API</h1>
-        <div>
-            <button onclick="getFromExternAPI()">Hämta API</button>
-            <div id="jokeDiv"></div>
+            
         </div>
 
+        <div class="bodyDivTwo">
+            <h1>Här hämtar jag från ett externt API</h1>
+            <div>
+                <button onclick="getFromExternAPI()">Hämta API</button>
+                <div id="jokeDiv"></div>
+            </div>
+
+        </div>
     </div>
+    <footer>
+        <h5>Susan Isaksson, WIE20G, 2021-09-02</h5>
+    </footer>
+
    
 </body>
 </html>
