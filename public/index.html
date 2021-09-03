@@ -6,35 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script defer src="./public.js"></script>
-    <title>Document</title>
+    <title>Systemsupport and integration with 3-partsystem </title>
 </head>
 <body>
-    <div class="header">
+    <div class="header">    
         <h1>Inlämningsuppgift 1 - API</h1>
-        <h5>Systemstöd och integration med 3-partssystem</h5>
     </div>
-    <div class="bodyContainer">
-    
-        <div class="bodyDivOne">
-            <h1>Här använder jag mitt egna API</h1>
-                                 
-            <div>
-                <h4>Vårt sortiment består av följande färger:</h4>             
-                <button onclick="getSomething()">Hämta färglista</button><br><br>
-                <div id="viewColor"></div>
-                <div>
-                    <h4>Saknar du din favoritfärg, kan du lägga in den här:</h4>
-                    <input type="text" id="inputNewColor" name="title" placeholder="Skriv in en ny färg">
-                    <button onclick="postNewColor()">Spara</button>
-                </div>   
-            </div>
-            
-        </div>
 
-        <div class="bodyDivTwo">
-            <h1>Här hämtar jag från ett externt API</h1>
+    <div class="divContainer">
+    
+        <div class="divOne">
+            
+        <h1>Här använder jag mitt egna API</h1>
+                                    
+        <div class="colorDiv">
+            <h2>Vårt sortiment består av följande färger:</h2>             
+            <button onclick="getSomething()">Hämta färglista</button><br><br>
+            <div id="viewColor"></div>
             <div>
-                <button onclick="getFromExternAPI()">Hämta API</button>
+                <h2>Saknar du din favoritfärg, kan du lägga in den här:</h2>
+                <input type="text" id="inputNewColor" name="title" placeholder="Skriv in en ny färg">
+                <button onclick="postNewColor()">Spara</button>
+            </div>   
+        </div>
+        
+    </div>
+
+        <div class="divTwo">
+            <h1>Här hämtar jag från ett externt API</h1>
+            <div class="apiDiv">
+                <button onclick="getFromExternAPI()">Tryck här för ett skämt!</button>
                 <div id="jokeDiv"></div>
             </div>
 

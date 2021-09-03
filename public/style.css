@@ -3,7 +3,12 @@
     margin: 0;
 }
 
+h2 {
+    margin-bottom: 1em;
+}
+
 .header {
+    display: flex;
     width: 100%;
     height: 8em;
     display: flex;
@@ -12,30 +17,79 @@
     background-color: rgba(128, 128, 128, 0.603);
     color: purple;
 }
-.bodyContainer {
+.divContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 
 }
 
-.bodyDivOne {
-    height: 20em;
+#viewColor {
+    border: 3px solid green;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-left: 20em;
+    margin-right: 20em;
+    padding: 2em;
+    background-color: rgba(82, 155, 82, 0.61);
+    color: whitesmoke;
+}
+
+.colorDiv {
+    margin-top: 2em;
+}
+
+.divOne {
+    display: flex;
+    flex-direction: column;
+    height: auto;
     width: 100%;
     background-color: aquamarine;
     text-align: center;
     
     padding-top: 5%;
+    padding-bottom: 5%;
   
    
 
 }
 
-.bodyDivTwo {
-    height: 10em;
+.divTwo {
+    
+    height: 16em;
     width: 100%;
     background-color: lavender;
     text-align: center;
    
-    padding-top: 5%;
+    padding-top: 2%;
+}
+
+.apiDiv {
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#jokeDiv {
+    height: auto;
+    border: 3px solid green;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 20em;
+    margin-right: 20em;
+    padding: 1em;
+    background-color:rgba(148, 0, 211, 0.486);
+    color: whitesmoke;
+}
+
+footer {
+    height: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 1em;
+    background-color: rgba(128, 128, 128, 0.603);
+    color: purple;
 }
